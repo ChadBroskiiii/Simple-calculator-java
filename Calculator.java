@@ -14,23 +14,28 @@ class Calculator{
 
         switch(operator){
             case '*':
-            output = num1 * num2;
-            System.out.println("The answer is: " + output);
+                output = num1 * num2;
+                System.out.println("The answer is: " + output);
             break;
 
             case '/':
-            output = num1 / num2;
-            System.out.println("The answer is: " + output);
+                output = num1 / num2;
+                System.out.println("The answer is: " + output);
             break;
 
             case '+':
-            output = num1 + num2;
-            System.out.println("The answer is: " + output);
+                output = num1 + num2;
+                System.out.println("The answer is: " + output);
             break;
 
             case '-':
-            output = num1 - num2;
-            System.out.println("The answer is: " + output);
+                output = num1 - num2;
+                System.out.println("The answer is: " + output);
+            break;
+
+            case '**':
+                output = num1 ** num2;
+                System.out.println("The answer is: " + output);
             break;
 
         }
