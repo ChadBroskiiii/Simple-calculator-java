@@ -33,9 +33,9 @@ class Calculator{
                 System.out.println("The answer is: " + output);
             break;
 
-            case '**':
-                output = num1 ** num2;
-                System.out.println("The answer is: " + output);
+            case '^':
+                double ans = Math.pow(num1, num2);
+                System.out.println("The answer is: " + ans);
             break;
 
         }
