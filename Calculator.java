@@ -39,6 +39,7 @@ class Calculator{
                 System.out.println("The answer is: " + ans);
             break;
 
+            case "square root":
             case "root":
             case "sqrt":
                 ans = Math.sqrt(num1);
